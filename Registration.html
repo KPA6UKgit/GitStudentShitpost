@@ -10,18 +10,20 @@
 
        <body> ​
         <h1> BlenderedCourse</h1>
-        <h2>Вход в личный кабинет</h2>
+        <h2>Создание учетной записи</h2>
         <h1>---
             ---
             ---
         </h1>
-        <p><input type=“text” name=“Имя”/></p>   
-        <p><input type=“text” name=“Фамилия”/></p>    
+        <form >
+        <p><input type=“text” placeholder="Введите Имя" maxlength="15" name=“First_name”/></p>   
+        <p><input type=“text” placeholder="Введите Фамилию" maxlength="15" name=“Second_name”/></p>    
+        <p>ваш пол  М<input type="radio", name="gender">  Ж<input type="radio", name="gender"></p> 
         <p><form method=“post” action=“http://account.mail.ru/login?page=https%3A%2F%2Faccount.mail.ru%2F%3F&”>​ </p> 
-        <p><input type=“text” name=“login”/></p> 
-         <p><input type=“password” name=“password”/></p>    
-         <p> </p>   
-        
+        <p><input type=“email” placeholder="ваша@почта.com" name=“usermail”/></p> 
+         <p><input type=“password” maxlength="8" placeholder="пароль" name=“password”/></p>    
+         <p>Зарегестрироваться<input type="submit"> </p>   
+        </form>
 
 
        </body>​
