@@ -1,5 +1,12 @@
-body { background-color: lightgray; ​
+body {
+    color: green;
+    background-image: url('/BlenderedCourse/Images/Background_Final.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-    background-image: url('K:\Codding\FinalBGTU\Background_Final.png');          ​
-
-    background-repeat: no-repeat; }
+.LinkColor:hover {
+    color:darkgrey;
+    text-decoration: underline;
+    text-decoration: orange;
+}
