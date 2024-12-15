@@ -1,0 +1,12 @@
+body {
+    color: green;
+    background-image: url('/BlenderedCourse/Images/Background_Final.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.LinkColor:hover {
+    color:darkgrey;
+    text-decoration: underline;
+    text-decoration: orange;
+}
